@@ -1,0 +1,457 @@
+html {
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+}
+
+body {
+	margin: 0;
+}
+
+::placeholder {
+	color: #ffffff80
+}
+
+div#research h2 {
+	text-align: center;
+	padding-bottom: 1%;
+}
+
+#searchBoxTitle:focus {
+	outline: none;
+}
+
+#searchBoxAuthor:focus {
+	outline: none;
+}
+
+.back {
+	padding-top: 5%;
+	padding-bottom: 5%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-image: url(https://www.comune.morengo.bg.it/sites/default/files/2018-12/1920x1280_si_libri.jpg) !important;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+#books {
+	background-color: #a4604ce0;
+	/* opacity: 0.96; */
+	border-radius: 22px;
+	box-shadow: 0px 5px 20px 2px #181818;
+	vertical-align: middle;
+	width: 70%;
+	padding: 3% 5% 5% 5%;
+	margin: auto;
+	margin-top:-2%;
+}
+
+h1 {
+	font-size: 400%;
+	text-align: center;
+	margin: 0;
+	font-style: normal;
+	color: black;
+	font-weight: bold;
+	padding-bottom: 1%;
+}
+
+#iconCerca {
+	font-size: 18px;
+	margin-right: 45px;
+	vertical-align: middle;
+	/* margin-top: -4.5%; */
+	/* float: left; */
+	margin-left: -43%;
+	color: #ffffff;
+}
+
+#isbn {
+	margin-top: 4%;
+}
+
+input#searchBoxIsbn {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	background: transparent;
+	margin: auto;
+	color: white;
+	width: 60%;
+	/* height: 35px; */
+	margin-top: 5%;
+	border-radius: 50px;
+	border-width: thin;
+	border-style: solid;
+	border-color: #ffffff;
+	padding-left: 42px;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	padding-right: 35px;
+}
+
+i#iconCerca3 {
+	font-size: 16px;
+	/* margin-right: 24px; */
+	/* margin-left: -116%; */
+	float:left;
+	margin-top: -10%;
+	margin-left: 7.5%;
+	/* margin-top: -4.5%; */
+	/* float: left; */
+	color: #ffffff;
+}
+
+#iconCerca2 {
+	font-size: 18px;
+	/* margin-right: 48px; */
+	vertical-align: middle;
+	/* margin-top: -4.5%; */
+	/* float: left; */
+	margin-left: -45%;
+	color: #ffffff;
+}
+
+#searchBoxTitle {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	background: transparent;
+	margin: auto;
+	color: white;
+	width: 34%;
+	margin-left: 3.5%;
+	height: 5%;
+	border-radius: 50px;
+	border-width: thin;
+	border-style: solid;
+	border-color: #ffffff;
+	padding-left: 50px;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	padding-right: 60px;
+}
+
+#searchBoxAuthor {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	background: transparent;
+	margin: auto;
+	color: white;
+	width: 34%;
+	margin-left: 40%;
+	margin-right: 2%;
+	height: 5%;
+	border-radius: 50px;
+	border-width: thin;
+	border-style: solid;
+	border-color: #ffffff;
+	padding-left: 50px;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	padding-right: 60px;
+}
+
+img {
+	float: left;
+	width:9%;
+}
+
+.selectElementId {
+	width: 50%;
+	height: 30px;
+	/* margin : 4% 2% 4% 0%; */
+	padding: 1.5%;
+	background: #b14b42;
+	color: 	#F5F5F5;
+	border-radius: 6px;
+	/* font-size: 14.5px; */
+	margin: 2% 2% 4% 0%;
+}
+
+#research {
+	height: 16.5%;
+	margin: auto;
+	/* width: 34%; */
+	/* margin-top: -40px; */
+	/* margin-bottom: 12px; */
+	padding-bottom: 3%;
+}
+
+#dettagliLibri {
+	/* float:right; */
+	vertical-align: middle;
+	line-height: 1 em;
+	padding-top: 0.8%;
+	padding-left: 15%;
+	height: 150px;
+	width: 85%;
+}
+
+input#slide {
+	margin: 1% 2% 1% 2%;
+	width: 58%;
+}
+
+div#yeardrop {
+	margin-rigth: 14%;
+	width: 30%;
+	margin-left: 2%;
+	float: left;
+	/* margin-bottom: 3%; */
+}
+
+div#sliderMin {
+	padding-top: 5%;
+}
+
+#sliders {
+	padding-left: 7%;
+	/* padding-bottom: 3%; */
+	width: 30%;
+	padding-top: 2;
+	float: left;
+}
+
+div#langdrop {
+	float: left;
+	width: 25%;
+	/* margin-bottom: 9%; */
+	/* margin-right: 10%; */
+}
+
+div#parameters {
+	margin-bottom: 5%;
+	font-size: 18px;
+}
+
+button#invio {
+	font-size: 20px;
+	width: 90%;
+	background: transparent;
+	padding: 1.5%;
+	color: white;
+	border-width: 1px;
+	border-style: solid;
+	margin-left: 5%; margin-right : 5%; border-radius : 50px;
+	transition: ease 0.4s;
+	border-radius: 50px;
+	margin-right: 5%;
+}
+
+button#invio:hover {
+	background: #F5F5F5;
+	color: #484848;
+	box-shadow: 0 1px 8px black;
+}
+
+div#inviodati {
+	
+margin: auto;
+	
+margin-top: 3.5%;
+}
+
+
+h3{
+	font-size: 140%;
+}
+
+/* The Close Button */
+.close {
+	width: 42px;
+	/* height: 106%; */
+	vertical-align: middle;
+	color: #ffffff;
+	float: right;
+	margin-top: -13%;
+	/* margin-bottom: 10%; */
+	padding-left: 2.7%;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	font-size: 20px;
+	border-radius:6px;
+	font-weight: bold;
+	margin-right: 1%;
+	transition: 0.75s ease;
+}
+
+.close:hover {
+	background: #e74c3cba;
+	color: white;
+	transition: 0.75s ease;
+}
+
+.close:hover, .close:focus {
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.modify{
+	width: 42px;
+	/* height: 106%; */
+	vertical-align: middle;
+	color: #ffffff;
+	float: right;
+	margin-top: -4%;
+	/* margin-top: 0%; */
+	padding-left: 2.8%;
+	padding-right: 0.2%;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	font-size: 20px;
+	font-weight: bold;
+	margin-right: 1%;
+	transition: 0.75s ease;
+}
+
+.modify:hover {
+	background: #1cdc57b0;
+	border-radius:6px;
+	color: white;
+}
+
+.modify:hover, .close:focus {
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.add{
+	/* height: 106%; */
+	width: 10% !important;
+	vertical-align: middle;
+	color: #ffffff;
+	/* margin-top: 14%; */
+	margin-right:45%;
+	margin-left: 45%;
+	border-radius: 6px;
+	padding: 2% 6% 2% 6%;
+	/* padding-top: 3%; */
+	/* padding-bottom: 12px; */
+	font-size: 60px;
+	font-weight: bold;
+	margin-right: 1%;
+	transition: 0.75s ease;
+}
+
+.add:hover {
+	background: #f3d36a;
+	color: white;
+}
+
+.add:hover, .close:focus {
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.modal {
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 1; /* Sit on top */
+	padding: 5% 0% 10% 0%;
+	align-content: center;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	/* overflow: scroll; */ /* Enable scroll if needed */
+	background-color: rgb(0, 0, 0); /* Fallback color */
+	background-color: rgba(0, 0, 0, 0.3); /* Black w/ opacity */
+}
+#dettagli {
+	background-color: #cbae49e0;
+	margin: auto;
+	padding-top: 1%;
+	color: black;
+	border-radius: 22px;
+	overflow-y: auto;
+	overflow-x: hidden;
+	border: 0;
+	width: 50%;
+	padding-left: 5%;
+	height: 60%;
+}
+
+div#dettagliinserimento {
+    padding-top: 3%;
+}
+
+input[type="text"] {
+    margin: 0;
+    background-color: #d4be72a1;
+    /* border: white; */
+    padding: 0.5%;
+    border-width: none;
+    width: 35%;
+    border-radius: 7px;
+    margin-bottom: 1.5%;
+    border-style: none;
+    vertical-align: middle;
+    /* object-position: center; */
+    margin-left: 6%;
+}
+
+label {
+    width: 141px;
+    clear:left;
+    /* text-align:right; */
+    /* padding-right:10px; */
+}
+
+input[text], label {
+    float:left;
+    background-color: transparent;
+}
+
+input[type="submit"] {
+    float: right;
+    margin-right: 10%;
+    padding: 2%;
+    margin-top: -25%;
+    /* border-width: thin; */
+    border-style: none;
+    border-radius: 7px;
+    color: white;
+    background-color: #b54f2f96;
+}
+
+span#closeinsert {
+    margin-top: -1%;
+    margin-right: 10%;
+    padding-left: 3.5%;
+    color: black;
+}
+input:focus{
+	outline:none;
+}
+input[type="text"]:focus {
+	border-color:wheat;
+	border-width:1px;
+	border-style:solid;
+	transition:0.75s;
+	margin-bottom:1.25%;
+}
+button:focus {
+	outline:none;
+}
+input[type="submit"]:hover {
+    background-color: #b74607e8;
+    	transition:0.75s;
+    
+}
+
+div#order {
+    width: 65%;
+    margin-left: 20%;
+    /* margin: 0; */
+    margin-top: 18%;
+    /* float: left; */
+    /* margin-bottom: 2%; */
+}
+div#orderby {
+    margin-bottom: 2%;
+}
