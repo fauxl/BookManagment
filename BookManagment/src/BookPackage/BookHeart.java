@@ -25,8 +25,9 @@ public class BookHeart {
 		MongoCollection<Document> collection = database.getCollection("book");
 		System.out.println("Collection book selected successfully");
 		
-		collection.createIndex(Filters.eq("title", "text"));
-	//	collection.createIndex(Filters.eq("authors", "text"));
+		//collection.createIndex(Filters.eq("title", "text"));
+		
+		collection.createIndex(Filters.eq("authors", "text"));
 
 		
 		

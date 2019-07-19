@@ -41,7 +41,7 @@ MongoClient mongo = new MongoClient("localhost",27017);
 
 
 		collection.insertOne(document);
-		System.out.println("Document modified succesfully");
+		System.out.println("Document inserted succesfully");
 
 		}
 	}

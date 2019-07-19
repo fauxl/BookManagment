@@ -13,14 +13,16 @@ body {
 
 div#research h2 {
 	text-align: center;
-	padding-bottom: 1%;
+	padding-bottom: 4%;
+	padding-top: 2%;
 }
 
 #searchBoxTitle:focus {
 	outline: none;
 }
 
-#searchBoxAuthor:focus {
+
+.searchBoxAuthor:focus {
 	outline: none;
 }
 
@@ -32,31 +34,97 @@ div#research h2 {
 	background-image: url(https://www.comune.morengo.bg.it/sites/default/files/2018-12/1920x1280_si_libri.jpg) !important;
 }
 
+#back2 {
+	padding-top: 5%;
+	padding-bottom: 5%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	    background-size: cover;
+	background-image: url(https://www.tokkoro.com/picsup/5289045-book-shelf-sunlight-magazine-shelving-shadow-learn-read-study-library-bookshop-bookstore-free-images.jpg) !important;
+}
+
+#books2 {
+    background-color: #234253e3;
+    border-radius: 14px;
+    box-shadow: 0px 5px 20px 2px #181818;
+    vertical-align: middle;
+    width: 70%;
+    padding: 2% 5% 3% 5%;
+    margin: auto;
+    margin-top: -2%;
+}
+
+#books3 {
+	background-color: #832d08d4;
+	/* opacity: 0.96; */
+	border-radius: 14px;
+	box-shadow: 0px 5px 20px 2px #181818;
+	vertical-align: middle;
+	width: 70%;
+	padding: 3% 5% 3% 5%;
+	margin: auto;
+	margin-top:-2%;
+}
+
+.back3 {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    height: -webkit-fill-available;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-position: left;
+    /* margin-bottom: 1%; */
+    background-size: cover;
+    background-image: url(http://www.coolturehunter.it/wp-content/uploads/2013/03/lib4.jpg) !important;
+}
+
+
 a {
 	color: white;
 	text-decoration: none;
 }
 
+
 #books {
 	background-color: #a4604ce0;
 	/* opacity: 0.96; */
-	border-radius: 22px;
+	border-radius: 14px;
 	box-shadow: 0px 5px 20px 2px #181818;
 	vertical-align: middle;
 	width: 70%;
-	padding: 3% 5% 5% 5%;
+	padding: 3% 5% 3% 5%;
 	margin: auto;
 	margin-top:-2%;
+}
+div#risultati {
+    margin: 0% 6% 0% 6%;
 }
 
 h1 {
 	font-size: 400%;
 	text-align: center;
+	    	transition:0.75s;
+	
 	margin: 0;
 	font-style: normal;
 	color: black;
 	font-weight: bold;
 	padding-bottom: 1%;
+}
+
+h2{
+	margin:0;
+	
+}
+
+h1:hover {
+	font-size: 450%;
+	    	transition:0.75s;
+	padding-bottom: -2%;
+
+}
+a:hover {
+    /*color: #a18b5e;*/
 }
 
 #iconCerca {
@@ -69,8 +137,16 @@ h1 {
 	color: #ffffff;
 }
 
+
+div#dispon {
+    margin-top: 2%;
+    font-size: 120%;
+    font-stretch: 9%;
+    margin-bottom:3%;
+    line-height: 150%;
+}
 #isbn {
-	margin-top: 4%;
+	margin-top: 2.5%;
 }
 
 input#searchBoxIsbn {
@@ -81,24 +157,24 @@ input#searchBoxIsbn {
 	color: white;
 	width: 60%;
 	/* height: 35px; */
-	margin-top: 5%;
+	margin-top: 4%;
 	border-radius: 50px;
 	border-width: thin;
 	border-style: solid;
 	border-color: #ffffff;
-	padding-left: 42px;
+	padding-left: 49px;
 	padding-top: 3%;
 	padding-bottom: 3%;
 	padding-right: 35px;
 }
 
 i#iconCerca3 {
-	font-size: 16px;
+	font-size: 17px;
 	/* margin-right: 24px; */
 	/* margin-left: -116%; */
 	float:left;
-	margin-top: -10%;
-	margin-left: 7.5%;
+	margin-top: -9%;
+	margin-left: 8%;
 	/* margin-top: -4.5%; */
 	/* float: left; */
 	color: #ffffff;
@@ -133,7 +209,7 @@ i#iconCerca3 {
 	padding-right: 60px;
 }
 
-#searchBoxAuthor {
+.searchBoxAuthor {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 18px;
 	background: transparent;
@@ -153,23 +229,47 @@ i#iconCerca3 {
 	padding-right: 60px;
 }
 
+#searchBoxAuthor {
+
+	width: 79%;
+	margin-left: 5%;
+	margin-right: -43%;
+	border-radius: 50px;
+	
+}
+
 img {
 	float: left;
 	width:9%;
 }
 
 .selectElementId {
-	width: 50%;
-	height: 30px;
+	width: 57%;
+	height: 40px;
 	/* margin : 4% 2% 4% 0%; */
+	/* margin-top: -4%; */
 	padding: 1.5%;
-	background: #b14b42;
+	background: #c79434c9;
 	color: 	#F5F5F5;
 	border-radius: 6px;
 	/* font-size: 14.5px; */
 	margin: 2% 2% 4% 0%;
 }
 
+.selectElementId2 {
+ 
+/* margin-top: -28%; */
+ 	width: 57%;
+	height: 40px;
+	/* margin : 4% 2% 4% 0%; */
+	/* margin-top: -4%; */
+	padding: 1.5%;
+	color: 	#F5F5F5;
+	border-radius: 6px;
+	/* font-size: 14.5px; */
+	margin: 2% 2% 4% 0%;
+background: #a18b5e !important;
+}
 #research {
 	height: 16.5%;
 	margin: auto;
@@ -250,9 +350,16 @@ div#inviodati {
 	
 margin: auto;
 	
-margin-top: 3.5%;
+margin-top: 3%;
 }
 
+
+div#inviodatistat {
+	
+margin: auto;
+	
+margin-top: 18%;
+}
 
 h3{
 	font-size: 140%;
@@ -274,7 +381,7 @@ h3{
 	border-radius:6px;
 	font-weight: bold;
 	margin-right: 1%;
-	transition: 0.75s ease;
+	transition: 0.5s ease;
 }
 
 .close:hover {
@@ -304,7 +411,7 @@ h3{
 	font-size: 20px;
 	font-weight: bold;
 	margin-right: 1%;
-	transition: 0.75s ease;
+	transition: 0.5s ease;
 }
 
 .modify:hover {
@@ -320,26 +427,24 @@ h3{
 }
 
 .add{
-	/* height: 106%; */
-	width: 10% !important;
+	width: 5%;
 	vertical-align: middle;
 	color: #ffffff;
-	/* margin-top: 14%; */
-	margin-right:45%;
-	margin-left: 45%;
-	border-radius: 6px;
-	padding: 2% 6% 2% 6%;
-	/* padding-top: 3%; */
-	/* padding-bottom: 12px; */
-	font-size: 60px;
+	margin:auto;
+	border-radius: 5px;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top:2%;
+	padding-bottom:2%;
+	font-size: 58px;
 	font-weight: bold;
-	margin-right: 1%;
-	transition: 0.75s ease;
+	transition: 0.5s ease;
 }
 
 .add:hover {
 	background: #f3d36a;
 	color: white;
+	box-shadow: 0px 1px 7px 1px #181818;
 }
 
 .add:hover, .close:focus {
@@ -367,13 +472,14 @@ h3{
 	margin: auto;
 	padding-top: 1%;
 	color: black;
-	border-radius: 22px;
+	border-radius: 14px;
 	overflow-y: auto;
 	overflow-x: hidden;
 	border: 0;
 	width: 50%;
 	padding-left: 5%;
 	height: 60%;
+	box-shadow: 0px 3px 10px 2px #181818;
 }
 
 div#dettagliinserimento {
@@ -432,7 +538,7 @@ input[type="text"]:focus {
 	border-color:wheat;
 	border-width:1px;
 	border-style:solid;
-	transition:0.75s;
+	transition:0.5s;
 	margin-bottom:1.25%;
 }
 button:focus {
@@ -440,7 +546,7 @@ button:focus {
 }
 input[type="submit"]:hover {
     background-color: #b74607e8;
-    	transition:0.75s;
+    	transition:0.5s;
     
 }
 
@@ -454,4 +560,66 @@ div#order {
 }
 div#orderby {
     margin-bottom: 2%;
+}
+.back2 {
+	padding-top: 10%;
+	padding-bottom: 10%;
+	height: -webkit-fill-available;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	/* margin-bottom: 1%; */
+	background-image: url(https://www.comune.morengo.bg.it/sites/default/files/2018-12/1920x1280_si_libri.jpg) !important;
+}
+
+
+
+button#choose {
+    width: 40%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    font-size: 120%;
+    border-style: none;
+    border-radius: 7px;
+    color: white;
+    border-style: dashed;
+    border-width: medium;
+    border-color: #e3b106;
+    background-color: #cfac3396;
+    padding: 1%;
+    margin-left: 4%;
+    margin-right: 5%;
+}
+
+button#choose:hover {
+    background-color: #b74607c7;
+    	transition:0.75s;
+    	border-style:solid;
+    	border-with:thin;
+    	border-color:#9d3902;
+    
+}
+span#result {
+    font-weight: bolder;
+    color: #a18b5e;
+}
+path {
+  /*  fill: #e08549e6 !important;*/
+}
+div#statistics {
+    margin-left: 7%;
+        margin-right: 7%;
+    
+}
+svg.main-svg {
+    background: transparent !important;
+}
+
+#copyright {
+    text-align: center;
+    /* padding: 2%; */
+    margin-top: 5%;
+    font-size: 100%;
+    font-style: bold;
+    padding-bottom: 0;
+    margin-bottom: 0;
 }

@@ -17,7 +17,16 @@
   </servlet>
   <servlet-mapping>
     <servlet-name>GestioneLibri</servlet-name>
-    <url-pattern>/home</url-pattern>
+    <url-pattern>/ricerca</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>StatisticheLibri</servlet-name>
+    <servlet-class>BookPackage.StatisticheLibri</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>StatisticheLibri</servlet-name>
+    <url-pattern>/statistica</url-pattern>
   </servlet-mapping>
   
 

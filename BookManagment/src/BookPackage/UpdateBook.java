@@ -29,7 +29,8 @@ MongoClient mongo = new MongoClient("localhost",27017);
 		System.out.println("Collection book selected successfully");
 	
     
-		collection.updateOne(Filters.eq("work_id", id),  Updates.combine(Updates.set("isbn13", isbn),Updates.set("authors", autore),Updates.set("image_url", img),Updates.set("language_code", lingua),
+		collection.updateOne(Filters.eq("work_id", id),  Updates.combine(Updates.set("isbn13", isbn),Updates.set("authors", autore),
+				Updates.set("image_url", img),Updates.set("language_code", lingua),
 				Updates.set("books_count", count), Updates.set("average_rating", voto), Updates.set("title", titolo), 
 				Updates.set("original_publication_year", anno )));
 		System.out.println("Document modified succesfully");

@@ -79,7 +79,7 @@ public class GestioneLibri extends HttpServlet {
 		
 		
 		}
-		RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/home.jsp");
+		RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/ricerca.jsp");
 		dispatcher.forward(request, response);
 	}
 
